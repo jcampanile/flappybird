@@ -17,3 +17,5 @@ still a work in progress
 <p>Original Game concept by Dong Nyugen.</p>
 <p>Images by Dong Nyugen.</p>
 <p>Code based on <a href="https://github.com/nebez/floppybird/">nebez's floppybird</a></p>
+<h2>notice</h2>
+This project by jcampanile is lisensed under the MIT license.

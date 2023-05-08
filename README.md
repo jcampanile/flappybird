@@ -4,9 +4,9 @@ my js flappy bird game, a heavily modified version of <a href="https://github.co
 <ul>
 <li>many images removed or replaced</li>
 <li>the way the bird, pipes, and background moves is changed</li>
-<li>lots more changes I dont feel like going into</li>
 <li>bug fixes</li>
 <li>scales with "transform: scale()" property to fit screen on desktop and mobile</li>
+<li>lots more changes I dont feel like going into</li>
 </ul>
 <h2>live demo <a href="https://jcampanile.github.io/flappybird">here</a></h2>
 <h2>note</h2>

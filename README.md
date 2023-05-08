@@ -1,5 +1,5 @@
 <h1>flappybird</h1>
-my js flappy bird game, a heavily modified version of <a href="https://github.com/nebez/">nebez's</a> floppy bird game. I modified it to be like the original app, with some little changes.
+my js flappy bird game, a heavily modified version of <a href="https://github.com/nebez/">nebez's</a> floppy bird game. I modified it to be like the original app.
 <h2>some big changes made</h2>
 <ul>
 <li>many images removed or replaced</li>

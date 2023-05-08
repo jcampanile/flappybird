@@ -88,8 +88,8 @@ function updatePlayer(player) {
   } else {
    rotation = Math.min((velocity / 4.25) * 110, 155) - 65;
   }
-  if (velocity > 3) {
-    gravity = .19
+  if (velocity > 5) {
+    gravity = .15
   } else {
     gravity = .25
   }

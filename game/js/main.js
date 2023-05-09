@@ -1,4 +1,4 @@
-var playerspeed = 62;
+var playerspeed = 60;
 var states = Object.freeze({
  SplashScreen: 0,
  GameScreen: 1,

@@ -118,7 +118,6 @@
  }
 }
 
-
 *,
 *:before,
 *:after {
@@ -158,9 +157,7 @@ body {
  margin: 0 auto;
 }
 
-/*
-Screen - Game
-*/
+/*Screen - Game*/
 #gamescreen {
  position: relative;
  width: 300px;
@@ -195,7 +192,6 @@ Screen - Game
  background-repeat: repeat-x;
  background-position: 0px 0px;
  background-color: #ded895;
-
  -webkit-animation: animLand 2767.6000000000004ms linear infinite;
  animation: animLand 2767.6000000000004ms linear infinite;
 }
@@ -245,7 +241,7 @@ Screen - Game
 #currentscore {
  position: absolute;
  top: 105px;
- left: 107px;
+ left: 140px;
  width: 104px;
  height: 14px;
  text-align: right;
@@ -255,7 +251,7 @@ Screen - Game
 #highscore {
  position: absolute;
  top: 147px;
- left: 107px;
+ left: 140px;
  width: 104px;
  height: 14px;
  text-align: right;

@@ -9,11 +9,11 @@ var gravity = 0.25;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
-var jump = -4.83;
+var jump = -4.8;
 var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
-var pipeheight = 105;
+var pipeheight = 104;
 var pipewidth = 52;
 var pipes = new Array();
 var replayclickable = false;
@@ -294,7 +294,7 @@ function updatePipes() {
  $(".pipe").filter(function () {
   return $(this).position().left <= -100;
  }).remove();
- var padding = 40;
+ var padding = 50;
  var constraint = flyArea - pipeheight - (padding * 2);
  var topheight = Math.floor((Math.random() * constraint) + padding);
  var bottomheight = (flyArea - pipeheight) - topheight;

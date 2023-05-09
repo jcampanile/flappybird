@@ -1,4 +1,4 @@
-var playerspeed = 60;
+var playerspeed = 62;
 var states = Object.freeze({
  SplashScreen: 0,
  GameScreen: 1,
@@ -86,7 +86,7 @@ function updatePlayer(player) {
   if (velocity <= 1.75) {
    rotation = -25;
   } else {
-   rotation = Math.min((velocity / 4.25) * 110, 155) - 65;
+   rotation = Math.min((velocity / 5) * 110, 155) - 65;
   }
   if (velocity > 5) {
     gravity = .18

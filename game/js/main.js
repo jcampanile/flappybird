@@ -8,11 +8,11 @@ var gravity = 0.25;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
-var jump = -4.78;
+var jump = -4.8;
 var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
-var pipeheight = 104;
+var pipeheight = 105;
 var pipewidth = 52;
 var pipes = new Array();
 var replayclickable = false;
@@ -75,7 +75,7 @@ function startGame() {
   opacity: 0
  }, 500, 'ease');
  setBigScore();
- var updaterate = 1000.0 / 60;
+ var updaterate = 1000.0 / 61;
  loopGameloop = setInterval(gameloop, updaterate);
  loopPipeloop = setInterval(updatePipes, 1340);
  playerJump();
@@ -83,9 +83,9 @@ function startGame() {
 function updatePlayer(player) {
  if (currentstate === states.GameScreen) {
   if (velocity <= 2) {
-   rotation = -22.5;
+   rotation = -22;
   } else {
-   rotation = Math.min((velocity / 4.7) * 110, 162.5) - 72.5;
+   rotation = Math.min((velocity / 4.7) * 110, 162) - 72;
   }
   if (velocity > 5) {
     gravity = .16

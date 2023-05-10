@@ -82,10 +82,10 @@ function startGame() {
 }
 function updatePlayer(player) {
  if (currentstate === states.GameScreen) {
-  if (velocity <= 2) {
+  if (velocity <= 3) {
    rotation = -22;
   } else {
-   rotation = Math.min((velocity / 4.7) * 110, 162) - 72;
+   rotation = Math.min((velocity / 4.75) * 110, 170) - 80;
   }
   if (velocity > 5) {
     gravity = .16

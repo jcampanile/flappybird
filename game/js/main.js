@@ -8,11 +8,11 @@ var gravity = 0.25;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
-var jump = -4.8;
+var jump = -4.75;
 var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
-var pipeheight = 105;
+var pipeheight = 106;
 var pipewidth = 52;
 var pipes = new Array();
 var replayclickable = false;
@@ -75,7 +75,7 @@ function startGame() {
   opacity: 0
  }, 500, 'ease');
  setBigScore();
- var updaterate = 1000.0 / 61;
+ var updaterate = 1000.0 / 60;
  loopGameloop = setInterval(gameloop, updaterate);
  loopPipeloop = setInterval(updatePipes, 1340);
  playerJump();

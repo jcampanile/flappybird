@@ -1,4 +1,3 @@
-var playerspeed = 60;
 var states = Object.freeze({
  SplashScreen: 0,
  GameScreen: 1,
@@ -9,7 +8,7 @@ var gravity = 0.25;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
-var jump = -4.8;
+var jump = -4.78;
 var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
@@ -76,20 +75,20 @@ function startGame() {
   opacity: 0
  }, 500, 'ease');
  setBigScore();
- var updaterate = 1000.0 / playerspeed;
+ var updaterate = 1000.0 / 60;
  loopGameloop = setInterval(gameloop, updaterate);
  loopPipeloop = setInterval(updatePipes, 1340);
  playerJump();
 }
 function updatePlayer(player) {
  if (currentstate === states.GameScreen) {
-  if (velocity <= 1.75) {
-   rotation = -25;
+  if (velocity <= 2) {
+   rotation = -22.5;
   } else {
-   rotation = Math.min((velocity / 5) * 110, 155) - 65;
+   rotation = Math.min((velocity / 4.7) * 110, 162.5) - 72.5;
   }
   if (velocity > 5) {
-    gravity = .17
+    gravity = .16
   } else {
     gravity = .25
   }

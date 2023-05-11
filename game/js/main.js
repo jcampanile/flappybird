@@ -325,4 +325,5 @@ var isIncompatible = {
  },
  any: function () {
   return (isIncompatible.Android() || isIncompatible.BlackBerry() || isIncompatible.iOS() || isIncompatible.Opera() || isIncompatible.Safari() || isIncompatible.Windows());
- };
+ }
+};

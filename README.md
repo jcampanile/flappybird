@@ -12,7 +12,8 @@ my js flappy bird game, a heavily modified version of <a href="https://github.co
 <h2>note</h2>
 still a work in progress
 <h2>screenshots</h2>
-<img width="1680" alt="Screenshot 2023-05-07 at 9 29 32 PM" src="https://user-images.githubusercontent.com/122117065/236720672-fc620c10-a193-4085-a7ac-6c9abf8c578f.png">
+<img width="1680" alt="Screenshot 2023-05-10 at 10 18 43 PM" src="https://github.com/jcampanile/flappybird/assets/122117065/d53d6a07-9144-40f2-a02c-72f9bdfbbb9f">
+
 <h2>credits</h2>
 <p>Original Game concept by Dong Nyugen.</p>
 <p>Images by Dong Nyugen.</p>

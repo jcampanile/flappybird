@@ -1,3 +1,4 @@
+var fps = 60;
 var states = Object.freeze({
  SplashScreen: 0,
  GameScreen: 1,
@@ -49,6 +50,7 @@ function setCookie(cname, cvalue, exdays) {
 }
 function showSplash() {
  currentstate = states.SplashScreen;
+ document.querySelector('#copyright').style.display = 'block'
  velocity = 0;
  position = 180;
  rotation = 0;
@@ -70,12 +72,13 @@ function showSplash() {
 }
 function startGame() {
  currentstate = states.GameScreen;
+ document.querySelector('#copyright').style.display = 'none'
  $("#splash").stop();
  $("#splash").transition({
   opacity: 0
  }, 500, 'ease');
  setBigScore();
- var updaterate = 1000.0 / 60;
+ var updaterate = 1000.0 / fps;
  loopGameloop = setInterval(gameloop, updaterate);
  loopPipeloop = setInterval(updatePipes, 1340);
  playerJump();
@@ -322,5 +325,4 @@ var isIncompatible = {
  },
  any: function () {
   return (isIncompatible.Android() || isIncompatible.BlackBerry() || isIncompatible.iOS() || isIncompatible.Opera() || isIncompatible.Safari() || isIncompatible.Windows());
- }
-};
+ };

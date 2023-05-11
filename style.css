@@ -1,7 +1,10 @@
 body {
  margin: 0;
- background-color: #000;
+ background-color: #000000;
  overflow: hidden;
+ height: 100%;
+ position: fixed;
+ width: 100%;
 }
 
 .scalescreen {
@@ -9,7 +12,7 @@ body {
  justify-content: center;
  align-items: center;
  margin: 0;
- height: 100vh;
+ height: 100%;
 }
 
 .container {

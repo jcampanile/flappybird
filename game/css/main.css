@@ -148,6 +148,16 @@ body {
  background-color: #000;
 }
 
+#copyright {
+ width: 100%;
+ position: absolute;
+ background-image: url('../assets/copyright.png');
+ background-position: center center;
+ background-repeat: no-repeat;
+ height: 50px;
+ display: none;
+}
+
 #gamecontainer {
  width: 300px;
  height: 600px;

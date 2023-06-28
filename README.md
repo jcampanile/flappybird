@@ -7,6 +7,6 @@ my js flappy bird game. I made it to be like the original app, with some tweaks.
 <h2>credits</h2>
 <p>Original Game concept by Dong Nyugen.</p>
 <p>Images by Dong Nyugen.</p>
-<p>Code based on <a href="https://github.com/nebez/floppybird/">nebez's floppybird</a></p>
+<p>Code loosly based on <a href="https://github.com/nebez/floppybird/">nebez's floppybird</a></p>
 <h2>notice</h2>
 This project by jcampanile is licensed under the MIT license.
